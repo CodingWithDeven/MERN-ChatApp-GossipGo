@@ -101,8 +101,8 @@ const Signup = () => {
       const data = new FormData();
       data.append("file", pics);
       data.append("upload_preset", "chat-app");
-      data.append("cloud_name", "piyushproj");
-      fetch("https://api.cloudinary.com/v1_1/piyushproj/image/upload", {
+      data.append("cloud_name", "dddjnmle3");
+      fetch("https://api.cloudinary.com/v1_1/dddjnmle3/image/upload", {
         method: "post",
         body: data,
       })
@@ -131,7 +131,7 @@ const Signup = () => {
 
   return (
     <VStack spacing="5px">
-      <FormControl id="first-name" isRequired>
+      <FormControl id="first-name" isRequired> 
         <FormLabel>Name</FormLabel>
         <Input
           placeholder="Enter Your Name"
